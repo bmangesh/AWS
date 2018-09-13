@@ -1,0 +1,7 @@
+Postgres and Neo4J replication on AWS between 3 regions
+
+We have Tomcat application that works with Postgres and Neo4J databases (DB). We need to deploy the application and both DB in 3 regions USA, Europe and Asia. Currently, we have 3 servers, one in each region, and each has Tomcat that works with local Neo4j and Posgres. Later we will need to keep DB on separate servers but for now, it is good enough to have them on the same server where is Tomcat and that each Tomcat works with it's own DBs. We are hosting servers on Amazon EC2. 
+We also have our own DNS that returns user from Asia, Asian server IP, from USA, USA's server IP and from Europe, European server IP.
+However, we have a problem how to keep these tree databases replicated on AWS across region. 
+
+The task is to keep 3 DB (neo4j and postgres) in 3 regions on AWS replicated. Attached is the schematics of the infrastructure currently used.
