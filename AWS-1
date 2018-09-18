@@ -18,3 +18,11 @@ Security Audit requirement and Using AWS Security tools , SSL and securing the n
 Basic knowledge about XRay , Pinpoint , SES, SNS, SQS
 
 Setting up an Infrastructure Monitoring System and Application Performance system for complete Infra and Code base.
+
+
+--------------Distributed LibreNMS-----------------------------
+- Connect one distributed LibreNMS to connect to central LibreNMS Server
+- This is a "test" for subsequent setups where we put a distributed LibreNMS at each client
+- document how to install distributed LibreNMS
+- we can work to open up any network ports, etc necessary
+- will need full walkthrough documentation setup, so that we can deploy additional sites in the future.
