@@ -5,3 +5,16 @@ We also have our own DNS that returns user from Asia, Asian server IP, from USA,
 However, we have a problem how to keep these tree databases replicated on AWS across region. 
 
 The task is to keep 3 DB (neo4j and postgres) in 3 regions on AWS replicated. Attached is the schematics of the infrastructure currently used.
+
+---------AWS and Security Implementation expert--------------------
+Our tech stack is Mongo, Nodejs, ExpressJS and AngularJS and socket.io
+Knowledge on Linux , Apache/Nginx
+
+Need extensive experience AWS tools like Autoscaling, route53, ec2 , lambda, s3, beanstalk , Mongo Atlas
+AWS Management tools
+
+Security Audit requirement and Using AWS Security tools , SSL and securing the network checklist
+
+Basic knowledge about XRay , Pinpoint , SES, SNS, SQS
+
+Setting up an Infrastructure Monitoring System and Application Performance system for complete Infra and Code base.
